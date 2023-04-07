@@ -1,0 +1,16 @@
+PUT localhost/userInfo/register
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "123"
+}
+
+###
+POST localhost/userInfo/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "123"
+}
